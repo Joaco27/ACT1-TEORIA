@@ -1,0 +1,82 @@
+/* Resetear estilos predeterminados */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #339966;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+   list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Cambiar el color de los enlaces del nav a blanco */
+nav a {
+    color: white;
+    text-decoration: none; /* Quitar subrayado en los enlaces */
+}
+
+
+section {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Estilos específicos para la lista de plantas */
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+/* Estilos para el contenedor flex */
+.contenedor-flex {
+    display: flex;
+    justify-content: space-between; /* Distribuir elementos uniformemente */
+
+}
+
+/* Estilos para cada elemento dentro del contenedor */
+.item {
+    flex-basis: 30%; /* Ancho mínimo para cada elemento */
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+/* Estilos para la imagen */
+.item img {
+    max-width: 100%;
+    height: 150px;
+}

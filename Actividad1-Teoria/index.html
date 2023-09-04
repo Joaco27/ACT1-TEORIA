@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosIA.css">
+    <title>Mi Jardín</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Jardín</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Información de Contacto</a></li>
+                <li><a href="index.html">Quién Mantiene el Sitio</a></li>
+                <li><a href="interiores.html">Plantas de Interior</a></li>
+                <li><a href="exteriores.html">Plantas de Exterior</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h1>ACTIVIDAD 1 - PROYECTO DE SOFTWARE</h1>
+        <p>Aquí encontrarás información sobre el proyecto de software.</p>
+        <a href="presentacion.html">Ver presentación</a>
+    </section>
+
+    <section id="contacto">
+        <h2>Información de Contacto</h2>
+        <!-- Agrega aquí tu formulario de contacto -->
+        <form action="index.html" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+    
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="comentarios">Comentarios:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <section id="quien-somos">
+        <h2>Quién Mantiene el Sitio</h2>
+        <!-- Agrega aquí información sobre ti o el mantenimiento del sitio -->
+        <p>Pagina construida por ChatGPT del alumno Joaquin Tartaruga, para la actividad 1 de teoria de la materia Proyecto de Software</p>
+    </section>
+
+    <section id="interior">
+        <h1>Selecciona una categoría:</h1>
+        <a href="exteriores.html">
+            <button>Plantas de Exteriores</button>
+        </a>
+        <a href="interiores.html">
+            <button>Plantas de Interiores</button>
+        </a>
+    </section>
+</body>
+</html>
